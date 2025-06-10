@@ -24,7 +24,7 @@
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/husaltam/so_long_2D_Game.git so_long
 cd so_long
 ```
 
