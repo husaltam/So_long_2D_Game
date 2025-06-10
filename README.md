@@ -82,7 +82,4 @@ The map must adhere to the following rules:
 - **Sprite Animation**: Animated sprites for characters or collectibles.
 - **On-Screen Movement Counter**: Displays the move count directly on the game window.
 
-## Submission
 
-Submit the project to the assigned Git repository. Ensure all mandatory files (`Makefile`, `.h`, `.c`, maps, textures) are included.  
-⚠️ The bonus part will only be evaluated **if the mandatory part is fully functional and error-free**.
