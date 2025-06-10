@@ -83,6 +83,8 @@ The map must adhere to the following rules:
 - **Enemies**: Player loses if they touch an enemy patrol.
 - **Sprite Animation**: Animated sprites for characters or collectibles.
 - **On-Screen Movement Counter**: Displays the move count directly on the game window.
-# Play and win the game and never step on the deadly flowers or shull you die!
+⚠️ **Play and win the game — but beware!**  
+Never step on the deadly flowers, or you shall perish! 💀🌸
+
 ![Screenshot](Documantation/2025-06-10-02.png)
 
