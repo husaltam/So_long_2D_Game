@@ -86,7 +86,7 @@ The map must adhere to the following rules:
 
 
 # ⚠️ **Play and win the game — but beware!**  
-Never step on the deadly flowers, or you shall perish! 💀🌸
+## Never step on the deadly flowers, or you shall perish! 💀🌸
 
 ![Screenshot](Documantation/2025-06-10-02.png)
 
