@@ -31,7 +31,8 @@ cd so_long
 Compile the project:
 
 ```bash
-make
+make re
+make bonus
 ```
 
 ## Usage
@@ -39,7 +40,7 @@ make
 Run the game with a valid `.ber` map file as an argument:
 
 ```bash
-./so_long maps/map1.ber
+./so_long_bonus assets/maps_bonus/Chamber_of_Patrols.ber
 ```
 
 ## Controls
