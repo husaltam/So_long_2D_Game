@@ -2,7 +2,7 @@
 
 ## Description
 
-**So Long** is a basic 2D game developed as part of a computer graphics project. The game involves a player (represented by a dolphin or any character of your choice) who must collect all the fish (or collectibles) on the map and escape through the exit. The project focuses on working with textures, sprites, and basic gameplay elements using the MiniLibX library.
+**So Long** is a basic 2D game developed as part of a computer graphics project. The game involves a player who must collect all collectibles on the map and escape through the exit. The project focuses on working with textures, sprites, and basic gameplay elements using the MiniLibX library.
 
 ![Screenshot](Documantation/2025-06-10.png)
 
@@ -14,12 +14,13 @@
 - **Graphics**: Uses MiniLibX for rendering images and textures.
 - **Movement Counter**: Displays the number of moves in the shell or on the screen (bonus).
 
-## Requirements
+## Installation Requirements
 
-- **Language**: C
-- **Library**: MiniLibX (provided by the school or installed from sources)
+- **Operating System**: Linux or macOS (MiniLibX is not natively supported on Windows)
 - **Compiler**: GCC with flags `-Wall -Wextra -Werror`
-- **Makefile**: Must include rules for `all`, `clean`, `fclean`, and `re`
+- **Libraries**: MiniLibX (provided by the school or installed manually)
+- **Make**: Ensure `make` is installed for building the project
+
 
 ## Installation
 
