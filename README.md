@@ -4,7 +4,7 @@
 
 **So Long** is a basic 2D game developed as part of a computer graphics project. The game involves a player (represented by a dolphin or any character of your choice) who must collect all the fish (or collectibles) on the map and escape through the exit. The project focuses on working with textures, sprites, and basic gameplay elements using the MiniLibX library.
 
-![Screenshot](Documantation/Screenshot from 2025-06-10 18-19-56.png)
+![Screenshot](Documantation/2025-06-10.png)
 
 ## Features
 
