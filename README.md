@@ -1,77 +1,40 @@
-So Long - A 2D Game Project
-Description
-So Long is a basic 2D game developed as part of a computer graphics project. The game involves a player (represented by a dolphin or any character of your choice) who must collect all the fish (or collectibles) on the map and escape through the exit. The project focuses on working with textures, sprites, and basic gameplay elements using the MiniLibX library.
+# So Long - A 2D Game Project
 
-Features
-Window Management: Opens a window to display the game and handles events like closing the window or pressing the ESC key.
+## Description
 
-Player Movement: The player can move in four directions (up, down, left, right) using the W, A, S, D keys or arrow keys.
+So Long is a basic 2D game developed as part of a computer graphics project. The game involves a player (represented by a dolphin or any character of your choice) who must collect all the fish (or collectibles) on the map and escape through the exit. [cite_start]The project focuses on working with textures, sprites, and basic gameplay elements using the MiniLibX library.
 
-Map Parsing: The game reads a map file with the .ber extension, validates it, and ensures it meets specific criteria (e.g., enclosed by walls, contains one exit, one player start, and at least one collectible).
+## Features
 
-Graphics: Uses MiniLibX for rendering images and textures.
+* [cite_start]**Window Management**: Opens a window to display the game and handles events like closing the window or pressing the ESC key.
+* [cite_start]**Player Movement**: The player can move in four directions (up, down, left, right) using the W, A, S, D keys or arrow keys.
+* [cite_start]**Map Parsing**: The game reads a map file with the `.ber` extension, validates it, and ensures it meets specific criteria (e.g., enclosed by walls, contains one exit, one player start, and at least one collectible).
+* [cite_start]**Graphics**: Uses MiniLibX for rendering images and textures.
+* [cite_start]**Movement Counter**: Displays the number of moves in the shell or on the screen (bonus).
 
-Movement Counter: Displays the number of moves in the shell or on the screen (bonus).
+## Requirements
 
-Requirements
-Language: C
+* [cite_start]**Language**: C 
+* [cite_start]**Library**: MiniLibX (provided by the school or installed from sources) 
+* [cite_start]**Compiler**: GCC with flags `-Wall`, `-Wextra`, and `-Werror` 
+* [cite_start]**Makefile**: Must include rules for `all`, `clean`, `fclean`, and `re` 
 
-Library: MiniLibX (provided by the school or installed from sources)
+## Installation
 
-Compiler: GCC with flags -Wall, -Wextra, and -Werror
+1.  **Clone the repository:**
+    ```bash
+    git clone your_repository_link_here
+    cd so_long
+    ```
 
-Makefile: Must include rules for all, clean, fclean, and re
+2.  **Compile the project:**
+    ```bash
+    make
+    ```
 
-Installation
-Clone the repository:
+## Usage
 
-bash
-git clone <repository-url>
-cd so_long
-Compile the project:
+Run the game with a valid `.ber` map file as an argument:
 
-bash
-make
-Usage
-Run the game with a valid .ber map file as an argument:
-
-bash
+```bash
 ./so_long maps/map1.ber
-Controls
-W/Arrow Up: Move up
-
-A/Arrow Left: Move left
-
-S/Arrow Down: Move down
-
-D/Arrow Right: Move right
-
-ESC: Quit the game
-
-Close Window (X): Quit the game
-
-Map Rules
-The map must adhere to the following rules:
-
-Composed of characters: 0 (empty space), 1 (wall), C (collectible), E (exit), P (player start).
-
-Must be rectangular and enclosed by walls.
-
-Must contain exactly one exit (E), one player start (P), and at least one collectible (C).
-
-Must have a valid path for the player to collect all items and reach the exit.
-
-Example of a valid map:
-
-text
-1111111111111
-10010000000C1
-1000011111001
-1P0011E000001
-1111111111111
-Bonus Features
-Enemies: Player loses if they touch an enemy patrol.
-
-Sprite Animation: Animated sprites for characters or collectibles.
-
-On-Screen Movement Counter: Displays the move count directly on the game window.
